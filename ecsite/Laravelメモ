@@ -1,0 +1,73 @@
+### controllerとmodel作成
+
+    // ItemController.php,  Item.php(model)を作成する
+    # php artisan make:controller ItemController --model=Item
+    //以下のファイルが作成される
+    - app\Http\Controllers\ItemController.php
+    - app\Item.php
+
+### マイグレーション実行
+
+    // まずはLaradocのWorkspaceに入る。
+    $ docker-compose exec workspace bash
+    // Laravelプロジェクトのディレクトリに入るので、ここでartisanコマンドを使って、migretionファイル作成
+    # php artisan make:migration create_items_table    // 「create_テーブル名_table」
+
+    // up()メソッドの中身を修正 (例)
+        public function up()
+        {
+            Schema::create('items', function (Blueprint $table) {
+                $table->bigIncrements('id');
+                $table->string('name', 100);
+                $table->integer('amount');
+                $table->timestamps();
+            });
+        }
+
+    // マイグレーション実行
+    # php artisan migrate
+
+### 認証機能をウェブアプリに組み込み
+
+    $ docker-compose exec workspace bash
+
+    // 以下で認証機能が作成される → ブラウザ、ホーム画面にLOGIN, REGISTERが出る
+    # php artisan make:auth
+
+### コントローラとモデルを作成
+
+    $ docker-compose exec workspace bash
+    $ php artisan make:controller ItemController --model=Item
+    // 以下のファイルが作成される
+    app\Http\Controllers\ItemController.php
+    app\Item.php
+
+### テストデータの用意
+- テストデータを作るにはLaravelの「シード」という仕組みを使う
+- シードを使う事で、データベースの初期値やテストデータをまとめて登録する事ができる
+
+    // (1)以下のコマンドで商品情報のシーダー（シードを作るプログラム）のテンプレートを作る
+    # php artisan make:seeder ItemsTableSeeder
+
+    // (2)投入データ記述 database/seeds/ItemsTableSeeder.php
+        public function run()
+        {
+            DB::table('items')->delete();
+            $item_seeds = [
+                [
+                    'name' => 'ネスレ スターバックス ハウスブレンド ネスカフェ ドルチェ グスト専用カプセル',
+                    'amount' => '980',
+                ],
+                [
+                    'name' => 'キリン 午後の紅茶 おいしい無糖 2L PET×9本',
+                    'amount' => '1286',
+                ],
+            ];
+            foreach($item_seeds as $item) {
+                DB::table('items')->insert($item);
+            }
+        }
+
+    // (3) seeder実行
+    # php artisan db:seed --class=ItemsTableSeeder
+

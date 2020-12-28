@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0a95ee13-3a73-4672-bc9f-47f187f545e4" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <execution />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="workspace" />
+  <component name="ProjectId" id="1mAwGSLAfSzugyCYRjWKvOBxeu3" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ecsite/resources/views/item" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.debug" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ecsite/resources/views/item" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0a95ee13-3a73-4672-bc9f-47f187f545e4" name="Default Changelist" comment="" />
+      <created>1608949607515</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608949607515</updated>
+      <workItem from="1608949608636" duration="37713000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1372" y="117" key="#CLI_Interpreters" timestamp="1609035086937">
+      <screen x="-1920" y="-77" width="1920" height="1080" />
+    </state>
+    <state x="-1372" y="117" key="#CLI_Interpreters/0.0.1440.900/-1920.-77.1920.1080@-1920.-77.1920.1080" timestamp="1609035086937" />
+    <state x="-1372" y="136" key="#CLI_Interpreters/0.23.1440.877/-1920.-54.1920.1057@-1920.-54.1920.1057" timestamp="1609033184079" />
+    <state x="-1202" y="137" key="#PHP_CodeSniffer" timestamp="1609036121389">
+      <screen x="-1920" y="-77" width="1920" height="1080" />
+    </state>
+    <state x="-1202" y="137" key="#PHP_CodeSniffer/0.0.1440.900/-1920.-77.1920.1080@-1920.-77.1920.1080" timestamp="1609036121389" />
+    <state x="-1230" y="50" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608961828205">
+      <screen x="-1920" y="-77" width="1920" height="1080" />
+    </state>
+    <state x="-1230" y="50" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900/-1920.-77.1920.1080@-1920.-77.1920.1080" timestamp="1608961828205" />
+    <state x="-1225" y="272" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608961214518">
+      <screen x="-1920" y="-77" width="1920" height="1080" />
+    </state>
+    <state x="-1225" y="272" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900/-1920.-77.1920.1080@-1920.-77.1920.1080" timestamp="1608961214518" />
+    <state x="-1222" y="217" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1609044949751">
+      <screen x="-1920" y="-77" width="1920" height="1080" />
+    </state>
+    <state x="-1222" y="217" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900/-1920.-77.1920.1080@-1920.-77.1920.1080" timestamp="1609044949751" />
+    <state x="-1071" y="352" key="DockerComposeFileDialog" timestamp="1609034871780">
+      <screen x="-1920" y="-77" width="1920" height="1080" />
+    </state>
+    <state x="-1071" y="352" key="DockerComposeFileDialog/0.0.1440.900/-1920.-77.1920.1080@-1920.-77.1920.1080" timestamp="1609034871780" />
+    <state x="-1281" y="114" key="SettingsEditor" timestamp="1609037280511">
+      <screen x="-1920" y="-77" width="1920" height="1080" />
+    </state>
+    <state x="-1281" y="114" key="SettingsEditor/0.0.1440.900/-1920.-77.1920.1080@-1920.-77.1920.1080" timestamp="1609037280511" />
+    <state x="-1281" y="133" key="SettingsEditor/0.23.1440.877/-1920.-54.1920.1057@-1920.-54.1920.1057" timestamp="1609034327848" />
+  </component>
+</project>
